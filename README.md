@@ -30,9 +30,17 @@ python manage.py runserver
 django-admin startappp {app_name}
 ```
 
+7. 앱 등록 ('settings.py' 안에)
+```bash
+INSTALLED_APPS [
+    '{app_name}',
+]
+```
 
 
 
-## MVC 패턴 (model=db, veiw, controller)
-django에서 MTV(model, template, veiw)라고 부름
+
+
+## MVC 패턴 (model=db, view, controller)
+django에서 MTV(model, template, view)라고 부름
 
